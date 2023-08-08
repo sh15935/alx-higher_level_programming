@@ -7,4 +7,4 @@ if last_dight > 5:
 elif last_dight == 0:
     print(f"Last digit of {number} is {last_dight} and is 0")
 else:
-    print(f"Last digit of {number} is {last_dight} and is less than 6 and not 0\n")
+    print(f"Last digit of {number} is {last_dight} and is less than 6 and not 0")
