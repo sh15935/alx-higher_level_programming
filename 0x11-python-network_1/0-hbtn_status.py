@@ -16,4 +16,4 @@ if __name__ == '__main__':
             s += "\n\t- utf8 content: {}"
             print(s.format(type(r), r, r.decode('utf-8')))
     except Exception as e:
-        print(f"An error occurred: {e}")
+        print("An error occurred: {}".format(e))
